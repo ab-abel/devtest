@@ -8,3 +8,8 @@ psycopg2
 
 #env. var
 python-dotenv
+
+#email validation
+pydantic[email]
+
+passlib[bcrypt]
