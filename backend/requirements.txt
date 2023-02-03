@@ -1,2 +1,10 @@
+#intial dependency   
 fastapi
 uvicorn
+
+#database endpoint
+sqlalchemy
+psycopg2
+
+#env. var
+python-dotenv
