@@ -9,7 +9,7 @@ class Job(Base):
     company = Column(String,nullable=False)
     company_url = Column(String)
     location = Column(String, nullable=False)
-    description - Column(String)
+    description = Column(String)
     date_posted =Column(Date)
     is_active = Column(Boolean,default=True)
     owner_id = Column(Integer, ForeignKey('user.id'))
